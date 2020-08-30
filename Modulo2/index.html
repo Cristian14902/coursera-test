@@ -1,1 +1,138 @@
+<! DOCTYPE html >
+< html >
+< cabeza >
+< meta  charset = " utf-8 " >
+< meta  name = " viewport " content = " width = device-width, initial-scale = 1 " >
+< título > Diseño adaptable </ título >
+< estilo >
 
+/ ********** Estilos base ********** /
+* {
+  tamaño de caja: caja de borde;
+}
+h1 {
+  margen inferior : 15 px ;
+}
+
+p {
+  borde : 1 px negro sólido;
+  color de fondo : # A52A2A ;
+  ancho : 90 % ;
+  altura : 150 px ;
+  margen derecho : automático;
+  margen izquierdo : automático;
+  familia de fuentes : Helvetica;
+  color : blanco;
+}
+
+/ * Marco Responsive Simple. * /
+. fila {
+  ancho : 100 % ;
+}
+
+/ ********** Solo dispositivos grandes ********** /
+@media ( ancho mínimo : 1200 px ) {
+  . col-lg-1 , . col-lg-2 , . col-lg-3 , . col-lg-4 , . col-lg-5 , . col-lg-6 , . col-lg-7 , . col-lg-8 , . col-lg-9 , . col-lg-10 , . col-lg-11 , . col-lg-12 {
+    flotar : izquierda;
+    borde : 1 px verde sólido;
+  }
+  . col-lg-1 {
+    ancho : 8,33 % ;
+  }
+  . col-lg-2 {
+    ancho : 16,66 % ;
+  }
+  . col-lg-3 {
+    ancho : 25 % ;
+  }
+  . col-lg-4 {
+    ancho : 33,33 % ;
+  }
+  . col-lg-5 {
+    ancho : 41,66 % ;
+  }
+  . col-lg-6 {
+    ancho : 50 % ;
+  }
+  . col-lg-7 {
+    ancho : 58,33 % ;
+  }
+  . col-lg-8 {
+    ancho : 66,66 % ;
+  }
+  . col-lg-9 {
+    ancho : 74,99 % ;
+  }
+  . col-lg-10 {
+    ancho : 83,33 % ;
+  }
+  . col-lg-11 {
+    ancho : 91,66 % ;
+  }
+  . col-lg-12 {
+    ancho : 100 % ;
+  }
+}
+
+/ ********** Solo dispositivos medianos ********** /
+@media ( ancho mínimo : 992 px ) y ( ancho máximo : 1199 px ) {
+  . col-MD-1 , . col-MD-2 , . col-MD-3 , . col-md-4 , . col-MD-5 , . col-md-6 , . col-md-7 , . col-md-8 , . col-md-9 , . col-md-10 , . col-md-11 , . col-md-12 {
+    flotar : izquierda;
+    borde : 1 px verde sólido;
+  }
+  . col-md-1 {
+    ancho : 8,33 % ;
+  }
+  . col-md-2 {
+    ancho : 16,66 % ;
+  }
+  . col-md-3 {
+    ancho : 25 % ;
+  }
+  . col-md-4 {
+    ancho : 33,33 % ;
+  }
+  . col-md-5 {
+    ancho : 41,66 % ;
+  }
+  . col-md-6 {
+    ancho : 50 % ;
+  }
+  . col-md-7 {
+    ancho : 58,33 % ;
+  }
+  . col-md-8 {
+    ancho : 66,66 % ;
+  }
+  . col-md-9 {
+    ancho : 74,99 % ;
+  }
+  . col-md-10 {
+    ancho : 83,33 % ;
+  }
+  . col-md-11 {
+    ancho : 91,66 % ;
+  }
+  . col-md-12 {
+    ancho : 100 % ;
+  }
+}
+
+</ estilo >
+</ cabeza >
+< cuerpo >
+< h1 > Diseño adaptable </ h1 >
+
+< div  class = " fila " >
+  < div  class = " col-lg-3 col-md-6 " > < p > Elemento 1 </ p > </ div >
+  < div  class = " col-lg-3 col-md-6 " > < p > Elemento 2 </ p > </ div >
+  < div  class = " col-lg-3 col-md-6 " > < p > Elemento 3 </ p > </ div >
+  < div  class = " col-lg-3 col-md-6 " > < p > Elemento 4 </ p > </ div >
+  < div  class = " col-lg-3 col-md-6 " > < p > Elemento 5 </ p > </ div >
+  < div  class = " col-lg-3 col-md-6 " > < p > Elemento 6 </ p > </ div >
+  < div  class = " col-lg-3 col-md-6 " > < p > Elemento 7 </ p > </ div >
+  < div  class = " col-lg-3 col-md-6 " > < p > Elemento 8 </ p > </ div >
+</ div >
+
+</ cuerpo >
+</ html >
